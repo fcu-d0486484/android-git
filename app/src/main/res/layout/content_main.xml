@@ -52,6 +52,12 @@
             android:text="Password"
             android:layout_weight="0.07" />
 
+        <Button
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button" />
+
     </LinearLayout>
 
 </RelativeLayout>
