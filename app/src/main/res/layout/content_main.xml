@@ -19,15 +19,18 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical"
+        android:weightSum="1"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:weightSum="1">
+        android:layout_alignParentStart="true">
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="142dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="User name:" />
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="User name:"
+            android:textSize="36sp"
+            android:textStyle="normal|bold" />
 
         <EditText
             android:id="@+id/editText2"
@@ -35,13 +38,17 @@
             android:layout_height="28dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name"
-            android:layout_weight="0.07" />
+            android:layout_weight="0.07"
+            android:hint="Name" />
+
         <TextView
             android:id="@+id/textView1"
-            android:layout_width="142dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Password:" />
+            android:text="Password:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="36sp"
+            android:textStyle="normal|bold" />
 
         <EditText
             android:id="@+id/editText3"
@@ -49,8 +56,8 @@
             android:layout_height="28dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Password"
-            android:layout_weight="0.07" />
+            android:layout_weight="0.07"
+            android:hint="Password" />
 
         <Button
             android:text="Login"
