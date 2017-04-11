@@ -37,6 +37,20 @@
             android:inputType="textPersonName"
             android:text="Name"
             android:layout_weight="0.07" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:text="Password:" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="140dp"
+            android:layout_height="28dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Password"
+            android:layout_weight="0.07" />
 
     </LinearLayout>
 
